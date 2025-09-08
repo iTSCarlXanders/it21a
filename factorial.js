@@ -50,6 +50,7 @@ function computeFactorial() {
                     console.log("The factorial of " + num + " is " + fact);
             }
             
+            
             backToMenu();
             
         });
