@@ -9,7 +9,7 @@
         },
         {
            "label":"Person B",
-            "data":[80,90,70,85,75,70],
+            "data":[80,80,75,85,80,85],
             "backgroundColor":"rgba(255, 0, 0, 0.1)",
             "bordercolor":"rgb(255, 0, 0)"
     }
