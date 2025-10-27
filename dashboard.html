@@ -1,30 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dashboard</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    
-     <style>
-        .container{
-            display: flex;
-            justify-content: center;
-            background-color: rgb(226, 226, 226);
-        }
 
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
 
+    <style>
+      .container {
+        display: flex;
+        justify-content: center;
+        background-color: rgb(226, 226, 226);
+      }
     </style>
-
-</head>
-<body>
+  </head>
+  <body>
     <h1>Dashboard</h1>
 
     <div class="container">
-        <canvas id="LineChart"></canvas>
-        <canvas id="radarChart"></canvas>
+      <canvas id="LineChart"></canvas>
+      <canvas id="radarChart"></canvas>
     </div>
-
-</body>
-<script src="dashboard.js"></script>
+  </body>
+  <script src="dashboard.js"></script>
 </html>
